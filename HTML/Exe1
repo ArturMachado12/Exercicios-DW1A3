@@ -1,0 +1,34 @@
+<html lang ="pt-br">
+
+	<head>
+		<title> Exercicio 1 - textos em HTML</title>
+	</head>
+
+	<body>
+		 É muito <strong>importante</strong> fazer os exercícios.<br>
+
+		<br>Se não for feito pode, ao invés de <em>ajudar</em>, na verdade 
+		<em>prejudicar</em> o aluno.<br>
+		
+		<br>Como disse Einsten <blockquote>"Tudo deveria se tornar o mais simples possível, mas não simplificado."</blockquote><br>
+
+		<br>De acordo com o Jornalista Marcelo Bechler <q>Messi quer deixar o clube ainda nesta temporada</q><br>
+
+		<br>A sede da Google fica nos <abbr title="Estados Unidos da América">EUA</abbr><br>
+
+		<br><cite>A Monalisa</cite> por Leonardo Da Vinci. Pintada em 1503.<br> 
+		
+		<br><dfn>Geeksforgeeks</dfn> é um portal para geeks.<br>
+
+		<br><address>Qualquer problema, faça contato consco através do e-mail artumachado100@gmail.com</address><br>
+
+		<br><ins>Texto Inserido.</ins><br>
+
+		<br><del>Esse texto foi removido.</del><br>
+
+		<br>Em inglês "quinto" pode ser escrito como 5<sup>th</sup>.<br>
+
+		<br>A formula da água é : H<sub>2</sub>O.
+	</body>
+
+</html>
