@@ -1,0 +1,37 @@
+<html>
+	<Head>
+		<title>Aula 5 EXE1 </title>
+
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<td> TIME </td>
+				<td> CHAMPIONS </td>
+				<td> CAMISA 10 </td>
+			</tr>
+	
+			<tr>
+				<td> Barcelona </td>
+				<td> 5 </td>
+				<td > Lionel Messi </td>
+			</tr>	
+			
+			<tr>
+				<td> Liverpool </td>
+				<td> 6 </td>
+				<td> Mané </td>
+			</tr>	
+		
+			<tr>
+				<td> Bayern </td>
+				<td  colspan="2"> 6 </td>
+			</tr>	
+
+			<tr>
+				<td rowspan="2" colspan="2"> PSG </td>
+				<td> Neymar </td>
+			</tr>	
+		</table>
+	</body>
+</html>
