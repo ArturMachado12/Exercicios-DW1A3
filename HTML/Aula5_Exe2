@@ -1,0 +1,69 @@
+<html>
+	<Head>
+		<title>Aula 5 EXE2 </title>
+
+	</head>
+	<body>
+		<form>
+			<p>Usuario:
+				<input type="text" name="username" size 15 maxlength="30"/>
+			</p>
+			<p>Senha:
+				<input type="password" name="senha" size 15 maxlength="30"/>
+			</p>
+			<p>Por favor, selecione seu time favortio:
+				<br>
+				<input type="radio" name="team" value="Barcelona" checked="checked"/> Barcelona
+				<input type="radio" name="team" value="Juventus" checked="checked"/> Juventus
+				<input type="radio" name="team" value="Manchester United" checked="checked"/> Manchester United
+			</p>
+			<p>Por favor, selecione seu Jogador favortio:
+				<br>
+				<input type="checkbox" name="player" value="Messi" checked="checked"/> Messi
+				<input type="checkbox" name="player" value="CR7" checked="checked"/> CR7
+				<input type="checkbox" name="player" value="Pogba" checked="checked"/> Pogba
+			</p>
+			<p>Qual seu estadio favorito?</p>
+			<select name="Stadiums">
+				<option value="Camp Nou" checked="checked"> Camp Nou </option>
+				<option value="Juventus Stadium" checked="checked"> Juventus Stadium </option>
+				<option value="Old Trafford"> Old Trafford </option>
+			</select>
+				<p>Upload do Gol em Video:</p>
+				<input type="file" name="user-goal" /><br>
+				<br>
+				<input type="submit" value="Upload" />
+			
+				<p>Se inscreva na nossa lista de email, para receber noticias do mundo do futebol:</p>
+				<input type="text" name="email" />
+				<input type="submit" name="subscribe" value="Subscribe"
+/>
+				
+				<p>Pesquisa:</p>
+				<input type="search" name="search" placeholder="Enter" />
+				<input type="submit" value="Pesquisar" /><br>
+				
+				<br>
+				<label>Idade do Jogador: <input type="text" name="age" /></label>
+				<br/ ><br>
+				Posição do Jogador:
+				<input id="ata" type="radio" name="position" value="a">
+				<label for="ata">Atacante</label>
+				<input id="zag" type="radio" name="position" value="z">
+				<label for="zag">Zagueiro</label>				
+				
+				<br>
+				<br>
+				<legend>Caracteristicas do jogador</legend>
+				<label>Altura:<br><input type="text" name="altura" /></label><br>
+				<label>Peso:<br><input type="text" name="peso" /></label><br>
+				<label>Perna Boa:<br><input type="text" name="PernaBoa" /></label>
+
+				<br>
+								
+				<br><label for="username">Data de nascimento do Jogador:</label>
+				<input type="date" name="depart" />
+				<input type="submit" value="Enviar" />
+		</form>		
+	</body>
+</html>
